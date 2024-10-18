@@ -1,7 +1,7 @@
 :root{
     --fundo: #008B8B;
-    --cartao-frente: #7FFFD4;
-    --cartao-verso:#7FFFD4;
+    --cartao-frente: #40E0D0;
+    --cartao-verso:#40E0D0;
     --destaque: #2F4F4F;
     --preto:#000000;
     --branco: #ffffff;
@@ -50,4 +50,6 @@ footer{
 .conteudo-cartao p{
     margin-top: 4rem;
     padding: 2rem;
+    font-size: 1.4vw;
+
 }
