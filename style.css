@@ -66,3 +66,6 @@ footer{
     height: 100%;
     width: 100%;
 }
+.resposta-cartao{
+    transform: rotateY(180deg);
+}
