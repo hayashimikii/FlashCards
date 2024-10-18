@@ -34,9 +34,9 @@ footer{
     flex-basis: calc(33%  -  6rem);
 }
 .conteudo-cartao{
-    backgroung-color: var(--cartao-frente);
-    text-align:center
-    height: 100%;
+    background-color: var(--cartao-frente);
+    text-align:center;
+    height:100%;
     color: var(--branco);
 }
 .conteudo-cartao h3{
