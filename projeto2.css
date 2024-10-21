@@ -41,7 +41,7 @@ header a{
     padding: 40px;
     border: 1px solid var(--destaque);
     transition: transform 0.2s;
-    box-shadow: 5px 5px 20px var(--preto);x
+    box-shadow: 5px 5px 20px var(--preto);
 }
 .conteudo-cartao:hover {
     transform:scale(1.02);
