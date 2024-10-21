@@ -19,7 +19,17 @@ footer{
     width: 100%;
     text-align: center;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backgroung-color: var(--preto);
+    padding: 2rem;
+}
+header a{
+    color: var(--branco);
 
+}
 #container{
     display: flex;
     flex-wrap: wrap;
