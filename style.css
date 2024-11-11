@@ -9,20 +9,22 @@
 }
 body{
     background-color: var(--fundo);
-    margin: 0;
+    
 }
 footer{
     background-color: var(--preto);
     position: fixed;
     bottom:0;
-    color: var(--branco);
+    color: var(--destaque);
     width: 100%;
     text-align: center;
+    padding: 15px;
+    font-weight: 600;
 }
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     backgroung-color: var(--preto);
     padding: 2rem;
 }
@@ -35,7 +37,7 @@ header a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 4rem;
+    padding: 5rem;
     gap: 3rem;
 }
 .cartao{
@@ -51,12 +53,13 @@ header a{
     color: var(--branco);
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
+    border-radius: 20px;
 }
 .conteudo-cartao h3{
     position: absolute;
     text-align: left;
     border: 1px solid var(--destaque);
-    border-radius: 6rem;
+    border-radius: 20px;
     margin: 0.6rem;
     padding: 0.6rem;
     backface-visibility: hidden;
@@ -74,13 +77,14 @@ header a{
 .pergunta-cartao, .resposta-cartao{
     backface-visibility: hidden;
     position: absolute;
+    border-radius: 20px;
     height: 100%;
     width: 100%;
 }
 .resposta-cartao{
     transform: rotateY(180deg);
-    font-weight: 700;
-    color: var(--destaque);
+    font-weight: bold;
+    color: var(--branco);
     border: 2px solid var(--destaque);
     background-color: var(--cartao-verso);
 }
